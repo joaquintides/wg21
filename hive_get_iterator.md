@@ -15,7 +15,7 @@ Wording is relative to [N5032](https://wg21.link/n5032):
 iterator get_iterator(const_pointer p)<del> noexcept</del>;
 const_iterator get_iterator(const_pointer p) const<del> noexcept</del>;
 ```
-* [hive.operations]
+* [hive.operations]:
 ```cpp
 iterator get_iterator(const_pointer p)<del> noexcept</del>;
 const_iterator get_iterator(const_pointer p) const<del> noexcept</del>;
