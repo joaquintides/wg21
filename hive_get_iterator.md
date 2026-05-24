@@ -2,9 +2,9 @@
 
 Both overloads of `std::hive::get_iterator` are marked as `noexcept`
 ([hive.operations](https://wg21.link/hive.operations)) even though these functions have
-preconditions, thus breaking Lakos rule. There is the related question of whether these
-functions should have their preconditions hardened, but that discussion would be about
-evolving the standard rather than fixing a defect in the normative text.
+preconditions, thus breaking Lakos rule. There is the womewhat related question of whether
+these functions should have their preconditions hardened, but that discussion would be
+about evolving the standard rather than fixing a defect in the normative text.
 
 **Proposed resolution:**
 
