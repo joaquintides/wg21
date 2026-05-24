@@ -5,7 +5,7 @@ that `T` be _Cpp17MoveInsertable_ into `hive`, _Cpp17MoveAssignable_, and _Cpp17
 It does not require `T` to be _Cpp17MoveConstructible_, which is a prerequisite for the
 internal use of `std::sort` by the implementation. Note that, in general,
 _Cpp17MoveInsertable_ into `hive` (or any container) does not imply _Cpp17MoveConstructible_.
-Both the de facto reference for `std::hive` (Matthew Bentley's
+Both the de facto reference implementation for `std::hive` (Matthew Bentley's
 [plf::hive](https://github.com/mattreecebentley/plf_hive)) and the ongoing[
 implementation for VS](https://github.com/NylteJ/STL/tree/hive) use `std::sort`
 directly on `T`.
