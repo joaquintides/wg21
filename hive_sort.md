@@ -1,4 +1,4 @@
-**`std::hive::sort` should add _Cpp17MoveConstructible_ to its preconditions on `T`.**
+**`std::hive::sort` should add _Cpp17MoveConstructible_ to its preconditions on `T`**
 
 `std::hive::sort` ([hive.operations](https://wg21.link/hive.operations)) requires
 that `T` be _Cpp17MoveInsertable_ into `hive`, _Cpp17MoveAssignable_, and _Cpp17Swappable_.
