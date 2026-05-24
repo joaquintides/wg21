@@ -12,7 +12,7 @@ directly on `T`.
 
 Strictly speaking, the lack of this precondition can be salvaged by invoking `std::sort`
 on a range of values of type `X`, where `X` is an ad-hoc type wrapping a `T` value and
-and an allocator object which implements move construction in terms of
+an allocator object which implements move construction in terms of
 `std::allocator_traits<A>::construct`. So, even if this issue is resolved as NAD, that
 would be informative for standard library implementors so that they can potentially fix
 their code.
